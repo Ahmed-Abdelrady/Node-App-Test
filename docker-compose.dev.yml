@@ -15,7 +15,7 @@ services:
         delay: 10s
       restart_policy:
         condition: on-failure
-        delay: 3s
+        delay: 4s
     volumes:
       - ./src:/app/src:ro   
     command: npm run start-dev
